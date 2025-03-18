@@ -13,28 +13,28 @@ company_name=company_name.upper()
 
 data_links = {
     "delivery_annual": {
-        "image": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/delivery_annual/delivery_annual.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/delivery_annual/delivery_annual.txt",
+        "image": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/delivery_annual/delivery_annual.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/delivery_annual/delivery_annual.txt",
     },
     "production_annual": {
-        "image": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/production_annual/production_annual.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/production_annual/production_annual.txt",
+        "image": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/production_annual/production_annual.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/production_annual/production_annual.txt",
     },
     "delivery_quarterly": {
-        "image":"https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/delivery_quarter/delivery_quarter.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/delivery_quarter/delivery_quarter.txt",
+        "image":f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/delivery_quarter/delivery_quarter.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/delivery_quarter/delivery_quarter.txt",
     },
     "production_quarterly": {
-        "image": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/production_quarter/production_quarter.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/production_quarter/production_quarter.txt",
+        "image": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/production_quarter/production_quarter.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/production_quarter/production_quarter.txt",
     },
     "delivery_comparison": {
-        "image": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/quarter_comparison_delivery/quarter_comparison_delivery.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/quarter_comparison_delivery/quarter_comparison_delivery.txt",
+        "image": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/quarter_comparison_delivery/quarter_comparison_delivery.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/quarter_comparison_delivery/quarter_comparison_delivery.txt",
     },
     "production_comparison": {
-        "image": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/quarter_comparison_production/quarter_comparison_production.png",
-        "text": "https://checkitanalytics.s3.us-east-1.amazonaws.com/TESLA_PROD_DEL/graphs_and_explanations/quarter_comparison_production/quarter_comparison_production.txt",
+        "image": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/quarter_comparison_production/quarter_comparison_production.png",
+        "text": f"https://checkitanalytics.s3.us-east-1.amazonaws.com/{company_name}_PROD_DEL/graphs_and_explanations/quarter_comparison_production/quarter_comparison_production.txt",
     },
 }
 # Radio buttons for category selection
